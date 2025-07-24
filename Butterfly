@@ -1,0 +1,39 @@
+public class Butterfly
+{
+
+	public static void main(String[] args)
+	{
+		for(int i=6;i>=1;i--)
+		{
+			for(int j=i;j<=6;j++)
+			{
+				System.out.print("*");
+			}
+			for(int k=2;k<=i*2-1;k++)
+			{
+				System.out.print(" ");
+			}
+			for(int l=i;l<=6;l++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		for(int i=1;i<=6;i++)
+		{
+			for(int j=6;j>=i;j--)
+			{
+				System.out.print("*");
+			}
+			for(int k=2;k<=i*2-1;k++)
+			{
+				System.out.print(" ");
+			}
+			for(int l=6;l>=i;l--)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+  }
+}

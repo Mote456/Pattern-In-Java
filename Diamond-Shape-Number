@@ -1,0 +1,45 @@
+package Loop;
+
+public class Question73 {
+
+	public static void main(String[] args) 
+	{
+		int n=5,ch=1;
+	
+		for(int i=1;i<=n;i++)
+		{
+	
+			for(int j=i;j<=n;j++)
+			{
+			    System.out.print("  ");
+            }
+			for(int k=1;k<=i;k++)
+			{
+				System.out.print(" "+k);
+			}
+			for(int k=i-1;k>=1;k--)
+			{
+				System.out.print(" "+k);
+			}
+			System.out.println();
+		}
+		for(int i=4;i>=1;i--)
+		{
+			for(int	j=i;j<=5;j++)
+			{
+				System.out.print("  ");
+			}
+			for(int k=1;k<=i;k++)
+			{
+				System.out.print(" "+k);
+			}
+			for(int k=i-1;k>=1;k--)
+			{
+				System.out.print(" "+k);
+			}
+			System.out.println();
+		}
+
+	}
+
+}

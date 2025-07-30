@@ -1,0 +1,23 @@
+class pat8
+{
+    public static void main(String sr[])
+    { char j,i,k,l,n='G';
+        for(i='A';i<=n;i++)
+        {
+            for(j=i;j<=n;j++)
+            {
+                System.out.print(" ");
+            }
+            for(k=i;k>='A';k--)
+            {
+                System.out.print(""+k);
+            }
+            for(k='B';k<i+1;k++)
+            {
+                System.out.print(""+k);
+            }
+            System.out.println();
+        }
+    }
+
+}

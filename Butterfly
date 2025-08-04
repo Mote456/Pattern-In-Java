@@ -5,7 +5,7 @@ public class Butterfly
 	{
 		for(int i=6;i>=1;i--)
 		{
-			for(int j=i;j<=6;j++)
+		        for(int j=i;j<=6;j++)
 			{
 				System.out.print("*");
 			}
